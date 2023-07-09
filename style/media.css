@@ -1,0 +1,242 @@
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+    header {
+        padding: 10px 0;
+    }
+
+    .manu ul li a {
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    .slider {
+        padding-bottom: 60px;
+    }
+
+    .car_c {
+        bottom: -60px;
+    }
+
+    .car_c [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+
+    .s_text h1 {
+        font-size: 25px;
+    }
+
+    .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .s_text p {
+        margin-bottom: 20px;
+    }
+    .s_icon ul li {
+        margin-right: 15px !important;
+    }
+    .s_icon ul li i {
+        font-size: 35px;
+    }
+
+    .c_padding {
+        padding: 50px 0 70px;
+    }
+
+    .c_h1 {
+        margin-bottom: 10px !important;
+        font-size: 25px;
+    }
+
+    .c_p {
+        font-size: 16px;
+        color: #313841;
+        line-height: 25px;
+    }
+    .feature_item {
+        margin-top: 30px;
+    }
+    .f_icon i {
+        margin-top: 0;
+        font-size: 35px;
+    }
+    .f_text h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .c_form {
+        margin: 40px 0 40px;
+    }
+    .c_input{
+        height: 50px;
+        padding: 10px 10px;
+    }
+    .btn_sub {
+        height: 50px;
+        padding: 10px 10px;
+    }
+    .con_item ul li{
+        margin-right: 20px !important;
+    }
+    .con_item ul li a i {
+        font-size: 35px;
+    }
+    footer {
+        padding-bottom: 70px;
+    }
+    .f_1 address {
+        text-align: center;
+    }
+    .f_2 {
+        text-align: center;
+        margin-top: 40px;
+    }
+ }
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .manu ul li a {
+        padding: 10px 0 0 !important;
+        font-size: 20px;
+        text-align: right;
+    }
+    /* slider */
+    .slider {
+        padding-bottom: 60px;
+    }
+
+    .car_c {
+        bottom: -56px;
+    }
+
+    .car_c [data-bs-target] {
+        width: 13px;
+        height: 13px;
+    }
+    .s_text {
+        margin-top: 0px;
+    }
+
+    .s_text h1 {
+        font-size: 25px;
+    }
+
+    .s_text h2 {
+        margin: 10px 0;
+        font-size: 18px;
+    }
+    .s_text p {
+        margin-bottom: 20px;
+    }
+    .s_icon ul li {
+        margin-right: 20px !important;
+    }
+    .s_icon ul li i {
+        font-size: 35px;
+    }
+
+    .c_padding {
+        padding: 50px 0 70px;
+    }
+    .c_h1 {
+        margin-bottom: 10px !important;
+        font-size: 25px;
+    }
+
+    .c_p {
+        font-size: 16px;
+        color: #313841;
+        line-height: 25px;
+    }
+    .feature_item {
+        margin-top: 30px;
+    }
+    .f_icon i {
+        margin-top: 0;
+        font-size: 35px;
+    }
+    .f_text h2 {
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .f_text {
+        text-align: center;
+    }
+    .c_form {
+        margin: 35px 0 40px;
+    }
+    .c_input{
+        height: 50px;
+        padding: 10px 10px;
+    }
+    .btn_sub {
+        height: 50px;
+        padding: 10px 10px;
+    }
+    .con_item ul li{
+        margin-right: 25px !important;
+    }
+    .con_item ul li a i {
+        font-size: 40px;
+    }
+    footer {
+        padding-bottom: 70px;
+    }
+    .f_1 address {
+        margin-bottom: 40px !important;
+        text-align: center;
+    }
+    .f_2 {
+        text-align: center;
+    }
+ }
+ 
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    
+
+    .manu ul li a {
+        padding: 10px 0 0 !important;
+        text-align: right;
+    }
+
+    .c_padding {
+        padding: 80px 0 100px;
+    }
+    .feature_item {
+        margin-top: 50px;
+    }
+    .c_form{
+        margin: 65px 0 70px;
+    }
+    footer {
+        padding-bottom: 100px;
+    }
+
+}   
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .manu ul li a {
+    padding: 0 45px !important;
+}
+ }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+    
+ }
+
+/*  Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+    
+ }
+
